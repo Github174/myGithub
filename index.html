@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<style>
+			footer{
+				background-color: black;
+				color: white;
+				padding: 20px;
+			}
+			.btn:hover,.btn:focus{
+				background-color: white;
+				color: black;
+				border: 1px solid black;
+			}
+			#home{
+				padding-top:80px;
+			}
+			#home img{
+				width: 100%;
+				height: 500px;
+			}
+			#xuex img{
+				width: 200px;
+				height:200px;
+			}
+			.mypanel{
+				background-color: black;
+				color: white;
+			}
+			.list-group{
+				color: black;
+			}
+			.btn1{
+				background-color: black;
+				color: white;
+			}
+			#p1{
+				color: gray;
+			}
+		</style>
+	</head>
+	<body data-spy="scroll" data-targer="#myNavbar" data-offset="200">
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">品牌LOGO</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#home">首页</a></li>
+						<li><a href="#xuex">媒体</a></li>
+						<li><a href="#pricing">面板</a></li>
+						<li><a href="#tour">缩略图</a></li>
+						<li><a href="#contact">图标菜单</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="登录.html">登录</a></li>
+						<li><a href="注册.html">注册</a></li>
+					</ul>
+				</div>
+			</div>			
+		</nav>	
+		<div id="home">			
+			<div class="carousel slide" id="myCar" data-ride="carousel" data-interval="2000">
+				<ol class="carousel-indicators">
+					<li data-target="#myCar" data-slide-to="0" class="active"></li>
+					<li data-target="#myCar" data-slide-to="1"></li>
+					<li data-target="#myCar" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/slide1.png" />
+					</div>
+					<div class="item">
+						<img src="img/slide2.png" />
+					</div>
+					<div class="item">
+						<img src="img/slide3.png" />
+					</div>
+				</div>
+				<a class="carousel-control left" href="#myCar" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="carousel-control right" href="#myCar" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+		<div id="xuex">
+			<div class="container">
+				<ul class="media-list">
+					<li>
+						<div class="media media-left">
+							<p><img src="img/jiaoxuelou.jpg" class="thumbnail" /></p>
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">教学楼</h3>
+							<p>新冠肺炎疫情防控期间，建筑工程系根据学院关于“停课不停学线上教学的部曙,紧紧围绕专业教学，发挥校企合作优势，邀请企业教师携手打造线上课堂，收到了良好的反响。</p>
+							<p>建筑工程系发挥校企合作优势,克服实际困难，多次与中亿丰建设集团股份有限公司的高级工程师、项目经理罗龙宽老师沟通，聘请他来为学生教授建筑课程。罗老师是建筑工程系的常聘外聘教师，有丰富的工程经验和教学经验。在线上教学准备过程中，他与时俱进、迎难而上，学习腾讯课堂、职教云等直播及信息化教学方面的技术，承接了《建筑与识图结构》课程网上授课任务。</p>
+							<p>建筑工程系发挥校企合作优势,克服实际困难，多次与中亿丰建设集团股份有限公司的高级工程师、项目经理罗龙宽老师沟通，聘请他来为学生教授建筑课程。罗老师是建筑工程系的常聘外聘教师，有丰富的工程经验和教学经验。在线上教学准备过程中，他与时俱进、迎难而上，学习腾讯课堂、职教云等直播及信息化教学方面的技术，承接了《建筑与识图结构》课程网上授课任务。</p>
+						</div>
+					</li>
+					<li>
+						<div class="media media-left">
+							<p><img src="img/lanqiuchang.jpg" class="thumbnail" /></p>
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">篮球场</h3>
+							<p>新冠肺炎疫情防控期间，建筑工程系根据学院关于“停课不停学线上教学的部曙,紧紧围绕专业教学，发挥校企合作优势，邀请企业教师携手打造线上课堂，收到了良好的反响。</p>
+							<p>建筑工程系发挥校企合作优势,克服实际困难，多次与中亿丰建设集团股份有限公司的高级工程师、项目经理罗龙宽老师沟通，聘请他来为学生教授建筑课程。罗老师是建筑工程系的常聘外聘教师，有丰富的工程经验和教学经验。在线上教学准备过程中，他与时俱进、迎难而上，学习腾讯课堂、职教云等直播及信息化教学方面的技术，承接了《建筑与识图结构》课程网上授课任务。</p>
+							<p>建筑工程系发挥校企合作优势,克服实际困难，多次与中亿丰建设集团股份有限公司的高级工程师、项目经理罗龙宽老师沟通，聘请他来为学生教授建筑课程。罗老师是建筑工程系的常聘外聘教师，有丰富的工程经验和教学经验。在线上教学准备过程中，他与时俱进、迎难而上，学习腾讯课堂、职教云等直播及信息化教学方面的技术，承接了《建筑与识图结构》课程网上授课任务。</p>
+						</div>
+					</li>
+					<li>
+						<div class="media media-left">
+							<p><img src="img/tiyuchang.jpg" class="thumbnail" /></p>
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">体育场</h3>
+							<p>新冠肺炎疫情防控期间，建筑工程系根据学院关于“停课不停学线上教学的部曙,紧紧围绕专业教学，发挥校企合作优势，邀请企业教师携手打造线上课堂，收到了良好的反响。</p>
+							<p>建筑工程系发挥校企合作优势,克服实际困难，多次与中亿丰建设集团股份有限公司的高级工程师、项目经理罗龙宽老师沟通，聘请他来为学生教授建筑课程。罗老师是建筑工程系的常聘外聘教师，有丰富的工程经验和教学经验。在线上教学准备过程中，他与时俱进、迎难而上，学习腾讯课堂、职教云等直播及信息化教学方面的技术，承接了《建筑与识图结构》课程网上授课任务。</p>
+							<p>建筑工程系发挥校企合作优势,克服实际困难，多次与中亿丰建设集团股份有限公司的高级工程师、项目经理罗龙宽老师沟通，聘请他来为学生教授建筑课程。罗老师是建筑工程系的常聘外聘教师，有丰富的工程经验和教学经验。在线上教学准备过程中，他与时俱进、迎难而上，学习腾讯课堂、职教云等直播及信息化教学方面的技术，承接了《建筑与识图结构》课程网上授课任务。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="pricing">
+			<div class="container">
+				<div class="row text-center">
+					<h4>Pricing</h4>
+					<p>Choose a payment plan that works for you</p>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-4">
+						<div class="panel">
+							<div class="panel mypanel">
+								<div class="panel-heading">
+									<h2>Basic</h2>
+								</div>
+								<ul class="list-group">
+										<li class="list-group-item">
+											<p><b>20</b>Lorem</p>
+											<p><b>15</b>lpsum</p>
+											<p><b>5</b>Dolor</p>
+											<p><b>2</b>Sit</p>
+											<p><b>Endless</b>Amet</p>
+										</li>
+										<li class="list-group-item">
+											<h2>$19</h2>
+											<p id="p1">per month</p>
+											<button type="button" class="btn btn1">Sign Up</button>
+										</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="panel">
+							<div class="panel mypanel">
+								<div class="panel-heading">
+									<h2>Basic</h2>
+								</div>
+								<ul class="list-group">
+										<li class="list-group-item">
+											<p><b>20</b>Lorem</p>
+											<p><b>15</b>lpsum</p>
+											<p><b>5</b>Dolor</p>
+											<p><b>2</b>Sit</p>
+											<p><b>Endless</b>Amet</p>
+										</li>
+										<li class="list-group-item">
+											<h2>$19</h2>
+											<p id="p1">per month</p>
+											<button type="button" class="btn btn1">Sign Up</button>
+										</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="panel">
+							<div class="panel mypanel">
+								<div class="panel-heading">
+									<h2>Basic</h2>
+								</div>
+								<ul class="list-group">
+										<li class="list-group-item">
+											<p><b>20</b>Lorem</p>
+											<p><b>15</b>lpsum</p>
+											<p><b>5</b>Dolor</p>
+											<p><b>2</b>Sit</p>
+											<p><b>Endless</b>Amet</p>
+										</li>
+										<li class="list-group-item">
+											<h2>$19</h2>
+											<p id="p1">per month</p>
+											<button type="button" class="btn btn1">Sign Up</button>
+										</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tour">
+			<div class="container">
+				<div class="row text-center">
+					<h4>巡演日期</h4>
+					<p>我们将会演绎自己的音乐。</p>
+					<p>快点来购票吧！</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="list-group">
+							<li class="list-group-item">
+								September<span class="label label-danger">售完！</span>
+							</li>
+							<li class="list-group-item">
+								October<span class="label label-danger">售完！</span>
+							</li>
+							<li class="list-group-item">
+								November<span class="badge pull-right">3</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="thumbnail text-center">
+							<img src="img/bj.jpg" />
+							<h4>北京</h4>
+							<p>Sat.28 November 2017</p>
+							<button class="btn" data-toggle="modal" data-target="#register">购票</button>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="thumbnail text-center">
+							<img src="img/sh.jpg" />
+							<h4>上海</h4>
+							<p>Sun.29 November 2017</p>
+							<button class="btn" data-toggle="modal" data-target="#register">购票</button>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="thumbnail text-center">
+							<img src="img/wh.jpg" />
+							<h4>武汉</h4>
+							<p>Fri.27 November 2017</p>
+							<button class="btn" data-toggle="modal" data-target="#register">购票</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact">
+			<div class="container">
+				<div class="row text-center">
+					<h4>CONTACT</h4>
+				</div>			
+				<div class="row">
+					<div class="col-sm-4">
+						<p>Contact us and we'll get back to you within 24 hours.</p>
+						<p><span class="glyphicon glyphicon-map-marker"></span>Chicago,US</p>
+						<p><span class="glyphicon glyphicon-phone"></span>+00 1515151515</p>
+						<p><span class="glyphicon glyphicon-envelope"></span>mymail@something.com</p>
+					</div>
+					<div class="col-sm-8">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-6">
+									<input type="text" class="form-control" placeholder="Name" />
+								</div>
+								<div class="col-sm-6">
+									<input type="text" class="form-control" placeholder="emails" />
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<textarea type="text" class="form-control" style="height: 100px;"></textarea>
+								</div>								
+							</div>
+							<div class="form-group pull-right">
+								<div class="col-sm-12">
+									<button type="button" class="btn btn-default">发送</button>
+								</div>								
+							</div>
+						</form>				
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="text-center">
+			<p>计算机 | 网络开发 | Bootstrap</p>
+			<p>地址：广东省XX市XXXXXXXXXXXXXXXXX</p>
+		</footer>
+	</body>
+</html>
